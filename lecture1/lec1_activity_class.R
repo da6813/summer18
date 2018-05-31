@@ -4,9 +4,9 @@
 # install.packages('sqldf')
 library(sqldf)
 
-employee <- read.csv('employee.csv')
-positions <- read.csv('positions.csv')
-departments <- read.csv('departments.csv')
+employee <- read.csv('https://raw.githubusercontent.com/da6813/summer18/master/lecture1/employee.csv')
+positions <- read.csv('https://raw.githubusercontent.com/da6813/summer18/master/lecture1/positions.csv')
+departments <- read.csv('https://raw.githubusercontent.com/da6813/summer18/master/lecture1/departments.csv')
 
 
 # EASY
