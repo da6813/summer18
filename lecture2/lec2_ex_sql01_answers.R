@@ -89,3 +89,4 @@ sqldf("select name, x.job_cd, x.dept_cd, race, gender, hire_date, full_part, ann
        and annual_salary > 15000
        and job_title like '%Athletic Coordinator%'
        order by annual_salary, name")
+
